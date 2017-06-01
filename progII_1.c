@@ -14,6 +14,7 @@ int soma()
     }
     return total;
 }
+
 int main()
 {
     int resp;

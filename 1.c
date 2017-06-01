@@ -21,6 +21,5 @@ int main ()
     resp=soma();
 
     printf("Total: %d", resp);
-    system ("pause");
     return 0;
 }

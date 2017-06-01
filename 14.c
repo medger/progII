@@ -12,8 +12,6 @@ int main()
 		printf("Questao %d:", j);
 		scanf(" %d", &matriz[0][j]);
 	}
-	
-		
 	//entrar com as notas dos alunos
 	for(i=1;i<=2;i++)
 	{	

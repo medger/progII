@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 int pesquisa(int vet[], int elem, int tam);
-
 const int TAM=5;
 int main()
 {
@@ -12,7 +10,6 @@ int main()
 		scanf("%d", &notas[i]);
 	
 	pesquisa(notas, 7, TAM);
-		
 return 0;
 }
 
@@ -34,7 +31,6 @@ int pesquisa(int vet[], int elem, int tam)
 				printf("Elemento (%d) encontrado na posicao %d!", vet[pos], pos);
 			}
 	}
-	
 	if (pos==(-1))
 		printf("Elemento nao encontrado!");
 

@@ -1,16 +1,12 @@
 #include <stdio.h>
-
 potencia (int base, int expoente)
-
 {
 	int i;
 	int result=0;
-	
 		if(expoente>-1)
 			{	
 			if(expoente==1||expoente==0)
 				result=base;
-						
 			else
 				{
 				result=base*base;
@@ -22,7 +18,6 @@ potencia (int base, int expoente)
 			result=0;
 	
 	return result;
-		
 }
 
 int main()
